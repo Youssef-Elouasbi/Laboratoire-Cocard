@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratoire Cocard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body,
+        html {
+            height: 100%;
+            /* background: linear-gradient(-45deg, #1e3c72, #2a5298, #6dd5ed, #2193b0); */
+            background: linear-gradient(-45deg, #286c9c, #b3313c);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .background {
+            /* background: url('https://images.unsplash.com/photo-1614308460927-5024ba2e1dcb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover; */
+            height: 89%;
+        }
+
+
+        .hero {
+
+
+            height: 89%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+
+        }
+
+        .contact {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .navbar-brand {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: x-large;
+            color: #9dafbb !important;
+            /* color: transparent !important; */
+            /* text-decoration: underline #b89c13 3px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container">
+                <a class="navbar-brand" href=""><b>Laboratoire Cocard </b></a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="container">
+                <h1 style="font-weight: bolder; display: flex; justify-content: center;">
+                    Bienvenue au Laboratoire Cocard
+                    <img src="https://img.icons8.com/?size=100&id=B781DagwnlEx&format=png&color=000000"
+                        style="width: 50px;">
+                </h1>
+                <p style="font-size: large;">Nous sommes un laboratoire d'analyses médicales dédié à fournir des
+                    services de haute qualité pour
+                    nos
+                    patients. Dirigé par Dr. Mehdi FILALI ROTBI, spécialiste en biologie médicale, nous nous engageons à
+                    garantir précision et excellence.</p>
+            </div>
+            <div class="contact">
+                <p><strong>Adresse :</strong> 24 Rue 26 Kesbat Sultan Ben Debbab, Fès</p>
+                <p><strong>Téléphone :</strong> 0535750867</p>
+                <p><strong>Email :</strong> <a href="mailto:labococard@gmail.com"
+                        style="color: beige;">labococard@gmail.com</a></p>
+            </div>
+        </header>
+    </div>
+
+    <!-- <section class="container mt-5 contact">
+        <h2>Contactez-nous</h2>
+    </section> -->
+
+    <footer class=" text-white text-center py-3">
+
+        &copy; 2025 Laboratoire Cocard - Tous droits réservés.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
